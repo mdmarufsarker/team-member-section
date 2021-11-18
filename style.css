@@ -1,0 +1,91 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500&family=Ubuntu:wght@300;400;500&display=swap'); */
+
+/* Available Fonts */
+/* font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  background-color: #cccccc;
+}
+.about {
+  width: 120rem;
+  height: 100vh;
+  margin: 0 auto;
+  background: #fff;
+}
+.heading-text {
+  text-align: center;
+  padding-top: 30px;
+}
+.heading-text h2 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.heading-text p {
+  color: #626364;
+  line-height: 2;
+  margin-bottom: 5rem;
+}
+.about .team-members {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-row-gap: 8rem;
+  grid-column-gap: 2rem;
+  justify-content: space-around;
+  margin-top: 3rem;
+  padding: 0 20px;
+}
+.about .team-members .card {
+  display: flex;
+  flex-direction: row;
+}
+.about .team-members .card .right-part {
+  padding: 0 2rem;
+}
+.about .team-members .card .right-part h3 {
+  font-weight: 300;
+  font-size: 2.5rem;
+  color: #3bb0d7;
+}
+.about .team-members .card .right-part h4 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  color: #cc3399;
+}
+.about .team-members .card .right-part p {
+  color: #626364;
+  margin: 2rem 0;
+  line-height: 3rem;
+}
+.about .team-members .card .right-part .icons img {
+  height: 3rem;
+  width: 3rem;
+  padding: 0.5rem;
+  transition: all 0.5s;
+}
+.about .team-members .card .right-part .icons img:hover {
+  position: relative;
+  border-radius: 1rem;
+  color: #fff;
+  background-color: #3bb0d7;
+  transform: rotate(360deg);
+}
